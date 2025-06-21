@@ -7,13 +7,8 @@ import asyncio
 from datetime import datetime
 
 # Настройки
-from dotenv import load_dotenv
-import os
-
-load_dotenv()  # Загружает переменные из .env файла
-
-TOKEN = os.getenv("TOKEN")
-ADMIN_ID = int(os.getenv("ADMIN_ID"))
+TOKEN = "8197713759:AAE0GQ6Kf1DcZVIG2HJG2qXnKXH7XDDQTaQ"  # Замените на токен от @BotFather
+ADMIN_ID = 1497275460  # Ваш ID (узнать у @userinfobot)
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher()
