@@ -6,14 +6,14 @@ from aiogram.utils.keyboard import InlineKeyboardBuilder
 import asyncio
 from datetime import datetime
 
-# Настройки
-TOKEN = "8197713759:AAE0GQ6Kf1DcZVIG2HJG2qXnKXH7XDDQTaQ"  # Замените на токен от @BotFather
-ADMIN_ID = 1497275460  # Ваш ID (узнать у @userinfobot)
+
+TOKEN = "8197713759:AAE0GQ6Kf1DcZVIG2HJG2qXnKXH7XDDQTaQ" 
+ADMIN_ID = 1497275460 
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher()
 
-# База данных заказов
+
 orders_db = {}
 
 # ===== КЛАВИАТУРЫ =====
